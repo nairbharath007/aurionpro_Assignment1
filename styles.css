@@ -80,3 +80,52 @@ body {
   margin-bottom: 0px; 
 }
 
+.resume-section {
+  flex: 3; /* Adjust the width of the resume section to fit the summary */
+  display: flex;
+  flex-direction: column;
+  background-color: #F8FFDB;
+  margin:0 auto;
+}
+
+.section-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.black-line {
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.summary-section {
+  padding: 20px 10px;
+  margin-left: 16%;
+  margin-right: 16%;
+  
+}
+
+.summary-content {
+  margin-left: 10px;
+}
+
+.education-section {
+  padding: 20px 10px;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.education-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.education-section th,
+.education-section td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+
