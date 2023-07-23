@@ -1,14 +1,16 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Monaco', sans-serif;
   font-family: 'Playfair Disney', serif;
   font-family: 'Roboto Slab', serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .resume-container {
   display: flex;
-  background-color: #B3FFAE;
+  background-color: #222831;
+  color:#EEEEEE;
   
   margin: 0 auto;
   padding: 20px;
@@ -53,12 +55,12 @@ body {
 }
 
 .right-section a{
-  color: #3F2305;
+  color: #EEEEEE;
   
 }
 
 .right-section a:hover{
-  color: #775144;
+  color: #FFE2E2;
 }
 
 .profile img {
@@ -84,7 +86,7 @@ body {
   flex: 3; /* Adjust the width of the resume section to fit the summary */
   display: flex;
   flex-direction: column;
-  background-color: #F8FFDB;
+  background-color: #EAEAEA;
   margin:0 auto;
 }
 
